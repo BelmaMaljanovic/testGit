@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.oNamaRoditelj {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 2rem;
+    text-align: left;
+}
+
+.oNamaRoditelj h3,
+h5 {
+    font-size: 1.8rem;
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: -1rem;
+}
+
+.naslovONama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.naslovONama p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.naslovONama2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.naslovONama2 h4 {
+    font-size: 1.8rem;
+    margin-bottom: -1.5rem;
+}
