@@ -1,0 +1,186 @@
+html {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-containter, .contact-containterDark{
+    margin: 0 auto;
+    width: 99vw;}
+
+.contact-containterDark{
+    background-color: rgb(49, 48, 48);
+}
+
+.contact-containterDark .contact-text p{
+    color: rgb(222, 222, 222);
+}
+
+.contact-path, .contact-pathDark{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.contact-path a{
+    color: black;
+    font-weight: 700;
+}
+
+.contact-pathDark a{
+    color: rgb(222, 222, 222);
+    font-weight: 700;
+}
+
+
+.contact-containterDark .contact-details .contact-detailsd1 p, .contact-containterDark .contact-details .contact-detailsd1 i, .contact-containterDark .contact-details .contact-detailsd1 h2{
+    color: rgb(222, 222, 222);
+}
+.contact-details{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-detailsd1{
+    height: 80%;
+    width: 20%;
+}
+
+.contact-detailsd1 div{
+    display: flex;
+    margin-top: 10px;
+}
+
+.contact-detailsd1 div i{
+    max-width: 1rem;
+    color: rgb(26, 26, 26);
+    font-size: 1.6rem;
+}
+
+.contact-detailsd1 h2, .contact-detailsd1 p{
+    color: rgb(26, 26, 26);
+}
+
+.contact-detailsd1 p{
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    padding-left: 1.5rem;
+}
+
+.cdhover div p:hover{
+    color: #41722d;
+    cursor: pointer;
+}
+
+.contact-form{
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-formh1{
+    width: 100%;
+    height: 15%;
+    color: rgb(26, 26, 26);
+}
+
+.contact-formf{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-two-inputs{
+    display: flex;
+    height: 25%;
+    justify-content: space-between;
+}
+
+.contact-full-input{
+    height: 25%;
+    width: 100%;
+}
+
+.contact-two-inputs input, .contact-full-input input{
+    width: 49.6%;
+    background-color: rgb(243, 243, 243);
+    border: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.contact-two-inputs .input-dark{
+    background-color: rgb(109, 109, 109);  
+}
+
+.contact-full-input .input-dark{
+    background-color: rgb(109, 109, 109);     
+}
+
+.contact-full-input input{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-two-inputs input::placeholder, .contact-full-input input::placeholder{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(156, 156, 156);
+}
+
+.contact-form-captcha{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-captcha{
+    width: 20%;
+    height: 45%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.contact-captcha img{
+    width: 100%;
+}
+
+.contact-button{
+    width: 30%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-button i{
+    padding-right: 5px;
+}
+
+.contact-button button{
+    height: 100%;
+    color: white;
+    font-weight: 500;
+    width: 35%;
+    background-color: #41722d;
+}
+
+.contact-map{
+    border: 1px solid rgb(223, 223, 223);
+    height: 25rem;
+}
+
+.h2-dark{
+    color: rgb(222, 222, 222);
+}
+
